@@ -1,0 +1,236 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #1f2937;
+  color: #e5e7eb; 
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #1f2937;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin-left: 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  color: #facc15;
+}
+
+.cards {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 80px 90px;
+  color: white;
+}
+
+.card {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+
+.car {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.ca {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+  margin-top: -5px;
+}
+
+.container {
+  border-radius: 50px;
+  width: 300px;
+  margin-left: 800px;
+  margin-top: -295px;
+}
+
+.galeri img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  margin: 10px;
+  margin-left: 49px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.keahlian {
+  margin-left: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 15px;
+}
+
+.keahlian ul {
+  list-style: none;
+  padding: 0;
+}
+
+.keahlian li {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.sosmed {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.ikon a {
+  margin: 0 10px;
+  font-size: 24px;
+  color: white; 
+  transition: color 0.3s;
+}
+
+.ikon a:hover {
+  color: #facc15; 
+}
+
+h2 {
+  font-size: 24px;
+  color: white;
+}
+
+.pendidikan {
+  padding: 40px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.pendidikan h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #facc15;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #2d3748;
+  color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #444;
+}
+
+th {
+  background-color: #4a5568;
+  color: #facc15;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+tr:hover {
+  background-color: #3b4252;
+}
+
+.cetak-wrapper {
+  text-align: center;
+  margin: 20px;
+}
+
+.print-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.print-btn:hover {
+  background-color: #0056b3;
+}
+
+/* ========================= */
+/* 📱 RESPONSIVE STYLE CSS  */
+/* ========================= */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .menu ul {
+    flex-direction: column;
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .menu li {
+    margin: 10px 0;
+  }
+
+  .container {
+    margin: 20px auto;
+    display: block;
+    width: 80%;
+  }
+
+  .cards {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .card {
+    font-size: 30px;
+    justify-content: center;
+  }
+
+  .galeri img {
+    width: 90%;
+    margin: 10px auto;
+    display: block;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  .keahlian {
+    margin: 20px;
+  }
+
+  .pendidikan {
+    padding: 20px;
+  }
+}
